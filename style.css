@@ -1,0 +1,8 @@
+.zen-overlay {
+    position: relative !important;
+    z-index: -1 !important;
+}
+
+.zen-login-notice {
+    display: none !important;
+}

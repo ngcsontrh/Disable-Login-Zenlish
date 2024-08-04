@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Tắt yêu cầu đăng nhập làm bài thi Zenlish",
+    "version": "1.0",
+    "description": "Tắt yêu cầu đăng nhập, đăng ký để làm bài test",
+    "author": "ngcsontrh",
+    "content_scripts": [
+      {
+        "matches": ["https://zenlishtoeic.vn/stm-quizzes/*"],
+        "css": ["style.css"],
+        "js": ["script.js"]
+      }
+    ]
+  }
+  

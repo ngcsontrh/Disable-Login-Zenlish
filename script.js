@@ -1,0 +1,1 @@
+console.log("Đã tắt yêu cầu đăng nhập, đăng ký")
